@@ -6,12 +6,12 @@
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
   <version>1.5.1</version>
-    <groupId>com.example.projects</groupId>
-  <artifactId>documentedproject</artifactId>
+    <groupId>org.springframework.samples</groupId>
+  <artifactId>spring-petclinic</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Documented Project</name>
-  <url>http://example.com</url>
+  <version>1.5.1</version>
+  <name>spring-petclinic</name>
+  <url>http://spring-petclinic.com</url>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -234,7 +234,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+          <webappDirectory>/var/lib/jenkins/workspace</webappDirectory>
         </configuration>
       </plugin>
     </plugins>
